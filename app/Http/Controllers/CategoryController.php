@@ -14,7 +14,7 @@ class CategoryController extends Controller
    */
   public function index()
   {
-    
+    return view('admin.categories');
   }
 
   /**
@@ -24,7 +24,7 @@ class CategoryController extends Controller
    */
   public function create()
   {
-    
+    return view('admin.editCategory');
   }
 
   /**
@@ -35,6 +35,7 @@ class CategoryController extends Controller
   public function store(Request $request)
   {
     
+    return redirect()->back();
   }
 
   /**
@@ -45,7 +46,7 @@ class CategoryController extends Controller
    */
   public function show($id)
   {
-    
+    return view('site.blog');
   }
 
   /**
@@ -57,6 +58,7 @@ class CategoryController extends Controller
   public function edit($id)
   {
     
+    return view('admin.editCategory');
   }
 
   /**
@@ -68,6 +70,7 @@ class CategoryController extends Controller
   public function update($id)
   {
     
+    return redirect()->back();
   }
 
   /**
@@ -79,6 +82,7 @@ class CategoryController extends Controller
   public function destroy($id)
   {
     
+    return redirect()->back();
   }
   
 }

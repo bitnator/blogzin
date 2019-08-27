@@ -16,7 +16,7 @@ class PostController extends Controller
   public function index()
   {
     $posts = Post::paginate(12);
-    return $posts;
+    return view('admin.posts');
   }
 
   /**
@@ -26,7 +26,7 @@ class PostController extends Controller
    */
   public function create()
   {
-    
+    return view('admin.newPost');
   }
 
   /**
@@ -37,6 +37,7 @@ class PostController extends Controller
   public function store(Request $request)
   {
     
+    return redirect()->back();
   }
 
   /**
@@ -49,7 +50,7 @@ class PostController extends Controller
   {
     $posts = Post::paginate(12);
     // dd($posts);
-    return view('admin.dashboard');
+    return view('site.post');
   }
 
   /**
@@ -61,6 +62,7 @@ class PostController extends Controller
   public function edit($id)
   {
     
+    return view('admin.editPost');
   }
 
   /**
@@ -72,6 +74,7 @@ class PostController extends Controller
   public function update($id)
   {
     
+    return redirect()->back();
   }
 
   /**

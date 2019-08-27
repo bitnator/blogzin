@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Charity</title>
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="{{ asset('site/img/favicon.png') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('site/css/bootstrap.min.css') }}">
     <!-- animate CSS -->
@@ -36,7 +36,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.html"> <img src="{{ asset('site/img/logo.png') }}" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -116,7 +116,7 @@
             <div class="row justify-content-around">
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_footer_part">
-                        <img src="img/footer_logo.png" class="footer_logo" alt="">
+                        <img src="{{ asset('site/img/footer_logo.png') }}" class="footer_logo" alt="">
                         <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open
                         </p>
                         <div class="work_hours">
@@ -145,28 +145,28 @@
                         <h4> our Gallery</h4>
                         <div class="footer_img">
                             <div class="single_footer_img">
-                                <img src="img/footer_img/footer_img_1.png" alt="">
+                                <img src="{{ asset('site/img/footer_img/footer_img_1.png') }}" alt="">
                             </div>
                             <div class="single_footer_img">
-                                <img src="img/footer_img/footer_img_2.png" alt="">
+                                <img src="{{ asset('site/img/footer_img/footer_img_2.png') }}" alt="">
                             </div>
                             <div class="single_footer_img">
-                                <img src="img/footer_img/footer_img_3.png" alt="">
+                                <img src="{{ asset('site/img/footer_img/footer_img_3.png') }}" alt="">
                             </div>
                             <div class="single_footer_img">
-                                <img src="img/footer_img/footer_img_4.png" alt="">
+                                <img src="{{ asset('site/img/footer_img/footer_img_4.png') }}" alt="">
                             </div>
                             <div class="single_footer_img">
-                                <img src="img/footer_img/footer_img_5.png" alt="">
+                                <img src="{{ asset('site/img/footer_img/footer_img_5.png') }}" alt="">
                             </div>
                             <div class="single_footer_img">
-                                <img src="img/footer_img/footer_img_6.png" alt="">
+                                <img src="{{ asset('site/img/footer_img/footer_img_6.png') }}" alt="">
                             </div>
                             <div class="single_footer_img">
-                                <img src="img/footer_img/footer_img_7.png" alt="">
+                                <img src="{{ asset('site/img/footer_img/footer_img_7.png') }}" alt="">
                             </div>
                             <div class="single_footer_img">
-                                <img src="img/footer_img/footer_img_8.png" alt="">
+                                <img src="{{ asset('site/img/footer_img/footer_img_8.png') }}" alt="">
                             </div>
                         </div>
                     </div>
